@@ -1,0 +1,52 @@
+/* ============================================================================
+   BIZCAST v5 — Global Styles
+   Dark theme konsisten dengan prototype lama. Mayoritas styling dilakukan
+   secara inline di komponen untuk fleksibilitas & isolasi (gaya prototype).
+   File ini hanya untuk reset dasar.
+============================================================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: #0a0e1a;
+  color: #e2e8f0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+/* Scrollbar dark theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #070a14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2640;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2d3656;
+}
